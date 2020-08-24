@@ -138,6 +138,7 @@ describe('Dashboard', () => {
         'Macarrão ao molho branco, fughi e cheiro verde das montanhas.',
       ),
     ).toBeTruthy();
+
     expect(getByTestId('remove-food-1')).toBeTruthy();
     expect(getByTestId('edit-food-1')).toBeTruthy();
   });
